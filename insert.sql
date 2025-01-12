@@ -1,0 +1,98 @@
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (1,'9763456742','ak@gmail.com','854 Lindbergh','Peachtree St.','Georgia','30324');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (2,'9763454387','Mark@gmail.com','786 Rosewell','Peachtree St.','Georgia','30324');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (3,'9768754197','alex@yahoo.com','3031 Sharon','NC St.','North Carolina','208110');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (4,'94250658927','raj@yahoo.com','2028 Sharon','NC St.','North Carolina','208110');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (5,'9730985123','mac@yahoo.com','235 Avanue','Foxhill road','New Jersey','76523');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (6,'4048761278','RJ@gmail.com','477 Norcross','Lilburn road','Georgia','30324');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (7,'9863458709','NY@gmail.com','586 Blocl','Morristown','New York','98537');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (8,'67854609093','auto@gmail.com','3038 Block','Chamblee','New York','98537');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (9,'9425098750','codd@gmail.com','4598 Stonybrook','Buckhead','Georgia','30324');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (10,'9826853503','krystals@gmail.com','8998 Bleeker','42nd St.','New York','98537');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (11,'6578268762','jame@gmail.com','98 Elix Avenue','Durong St','California','98778');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (12,'9768754197','alex@yahoo.com','3031 Sharon','NC St.','North Carolina','208110');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (13,'1234567890','aqw@gmail.com','123 Lindbergh Center','Peidmont','Georgia','30324');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (14,'797097970','j11@gmail.com','83 amitesh nagar','Scheme no. 59 near new sabji mand','Madhya Pradesh','452001');
+INSERT INTO `` (`Rental_Location_ID`,`Phone`,`Email`,`Address`,`Street_Name`,`State`,`Zip_Code`) VALUES (15,'8987633123','kry@gmail.com','Amitesh ','Vishnupuri','Madhya Pradesh','452014');
+
+INSERT INTO `` (`Accessory_ID`,`Type`,`Amount`) VALUES (1,'GPS Navigator',15.99);
+INSERT INTO `` (`Accessory_ID`,`Type`,`Amount`) VALUES (2,'Child Seat',25.50);
+INSERT INTO `` (`Accessory_ID`,`Type`,`Amount`) VALUES (3,'Car Charger',12.50);
+INSERT INTO `` (`Accessory_ID`,`Type`,`Amount`) VALUES (4,'Ski Rack',30.75);
+INSERT INTO `` (`Accessory_ID`,`Type`,`Amount`) VALUES (5,'Roof Rack',45.00);
+
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('FALL25','25% off during fall season','Expired',1);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('FAMILY10','10% off on family rentals','Inactive',1);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('LOYALTY50','50% off for loyal customers','Active',1);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('NEWUSER15','15% off for new users','Active',1);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('SAVE10','10% off on all rentals','Active',1);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('SPRING5','5% off for spring season','Expired',0);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('STUDENT20','20% off for students','Active',0);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('SUMMER30','30% off on summer bookings','Active',0);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('VIP40','40% off for VIP customers','Active',1);
+INSERT INTO `` (`Promo_Code`,`Description`,`Status`,`Is_One_Time`) VALUES ('WEEKEND20','20% off on weekend rentals','Active',0);
+
+INSERT INTO `` (`admin_id`,`password`) VALUES ('j11@cargo.com','jasnoor');
+INSERT INTO `` (`admin_id`,`password`) VALUES ('s11@cargo.com','shreya');
+
+INSERT INTO `` (`Insurance_ID`,`Insurance_Type`,`Collision_Coverage`,`Car_Coverage`,`Medical_Coverage`,`Insurance_Price`) VALUES (1,'Platinum',100.00,80.00,20.00,200.00);
+INSERT INTO `` (`Insurance_ID`,`Insurance_Type`,`Collision_Coverage`,`Car_Coverage`,`Medical_Coverage`,`Insurance_Price`) VALUES (2,'Gold',70.00,60.00,20.00,150.00);
+INSERT INTO `` (`Insurance_ID`,`Insurance_Type`,`Collision_Coverage`,`Car_Coverage`,`Medical_Coverage`,`Insurance_Price`) VALUES (3,'Silver',60.00,40.00,10.00,110.00);
+INSERT INTO `` (`Insurance_ID`,`Insurance_Type`,`Collision_Coverage`,`Car_Coverage`,`Medical_Coverage`,`Insurance_Price`) VALUES (4,'Basic',50.00,30.00,0.00,80.00);
+
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (1,'SAVE10',10.00,5.00);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (2,'WEEKEND20',20.00,10.00);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (3,'FALL25',25.00,12.50);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (4,'NEWUSER15',15.00,7.50);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (5,'SUMMER30',30.00,15.00);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (6,'SPRING5',5.00,2.50);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (7,'LOYALTY50',50.00,25.00);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (8,'FAMILY10',10.00,5.00);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (9,'STUDENT20',20.00,10.00);
+INSERT INTO `` (`Discount_ID`,`Promo_Code`,`Percentage`,`Discount_Amount`) VALUES (10,'VIP40',40.00,20.00);
+
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (1,'jasnoor singh',NULL,'mac','jasnoormac11@gmail.com',NULL,NULL,NULL,NULL);
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (2,'John','A','Doe','john.doe@example.com','1990-01-01','L123456789','123 Main St, City, Country','1234567890');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (3,'Jane','B','Smith','jane.smith@example.com','1985-05-15','L987654321','456 Elm St, City, Country','0987654321');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (4,'Michael','C','Brown','michael.brown@example.com','1992-08-22','L234567891','789 Pine St, City, Country','1231231234');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (5,'Emily','D','Wilson','emily.wilson@example.com','1995-12-10','L345678912','101 Maple Ave, City, Country','3213213210');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (6,'David','E','Taylor','david.taylor@example.com','1988-03-07','L456789123','202 Oak St, City, Country','4564564567');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (7,'Sophia','F','Anderson','sophia.anderson@example.com','1991-09-14','L567891234','303 Birch Ln, City, Country','7897897890');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (8,'James','G','Thomas','james.thomas@example.com','1984-04-18','L678912345','404 Cedar Rd, City, Country','0120120123');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (9,'Olivia','H','Moore','olivia.moore@example.com','1993-07-29','L789123456','505 Spruce St, City, Country','3453453456');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (10,'William','I','Jackson','william.jackson@example.com','1986-11-25','L891234567','606 Willow Dr, City, Country','6786786789');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (11,'Isabella','J','Martin','isabella.martin@example.com','1989-02-03','L912345678','707 Aspen St, City, Country','9019019012');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (12,'Abhishek','S','Sharawat','abhishek@gmail.com','2014-11-14','DL8976','345 Cant Road, Mhow','97078708712');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (13,'jas','s','m','j@gmail.com','2016-11-11','75975','589758975','75870875');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (14,'shreya','s','gaikwad','s@gmail.com','2014-11-12','L86986','878','760976075087');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (15,'Div','A','Verma','Div@gmail.com','2022-11-10','L86986','698975','750750864');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (16,'Ayan','A','Agrawal','a@gmail.com','2014-11-13','L8695975','8609507508645','75876403423');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (18,'Dj','','Sar','dj@gmail.com','2014-11-11','L69696','86975075','75080864974');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (19,'Udit','','Sathe','us@gmail.com','2015-03-11','L870809','86-1964-169','696986931');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (20,'Tom','jr','Mat','tm@gmail.com','2016-08-17','L8086975','686486486','75975975970');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (21,'abc','abc','abc','abc@gmail.com','2014-11-12','L869975','68486486','758758758');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (22,'abcdf','','asd','12@gmail.com','2015-02-10','L8708708','34134','134134');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (23,'Isha','','Singh','is@gmail.com','2015-08-06','L7060','759759','648964964');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (24,'Ajax','A','Mac','am@gmail.com','2024-11-11','L987087','780 Lindbergh','673937464589');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (25,'abcd','ab','abcd','ab@gmail.com','2024-11-11','L86986','8698595','68598');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (26,'jhl','jbd','dbf','jb@gmail.com','2024-11-11','L9704','836542038','357602863');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (27,'shwe','q','maj','mk@gmail.com','2024-11-11','L76975','759759','75975975897');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (28,'saket','c','kalikota','sk@gmail.com','1999-04-02','L8697567','123 Piedmont','9876776823');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (29,'JAS','S','Mac','jmac@gmail.com','2000-06-14','L75867','1234 Lindbergh','0869576548');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (30,'abhdfj','jbds','jnla','ih@gmail.com','2000-01-01','L8708708','ifpaihfp','985--2935235');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (31,'uho[u',';b;','EGF','feqe@asfg.com','1998-01-13','L235','fdgafdba','5142361');
+INSERT INTO `` (`User_ID`,`FName`,`MName`,`LName`,`Email`,`DOB`,`License_No`,`Address`,`Phone`) VALUES (32,'Antonio','S','Mal','antonio@gmail.com','2001-01-17','L75875','467 Lindbergh','869085690');
+
+INSERT INTO `` (`Car_Type_ID`,`Car_Type`,`Price_Per_Day`,`Seating_Capacity`) VALUES (32,'Hatchback',45.00,4);
+INSERT INTO `` (`Car_Type_ID`,`Car_Type`,`Price_Per_Day`,`Seating_Capacity`) VALUES (55,'Sedan',70.00,5);
+INSERT INTO `` (`Car_Type_ID`,`Car_Type`,`Price_Per_Day`,`Seating_Capacity`) VALUES (888,'SUV',90.00,7);
+
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('1','ABC123','Jazz',2019,'Red','Yes',32);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('10','YTU7487','Mini Cooper',2019,'Red','No',32);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('2','DEF456','Honda Civic',2020,'Blue','Yes',55);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('3','GHI789','Toyota Highlander',2018,'White','Yes',888);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('4','JKL012','Toyota Camry',2021,'White','No',55);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('5','MNO123','VW GTI',2021,'Red','No',32);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('6','PQW987','Audi S3',2019,'Blue','No',32);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('7','ASD952','Cadilac Escalade',2019,'Black','Yes',888);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('8','GHT2490','Dodge Durango',2017,'Black','Yes',888);
+INSERT INTO `` (`VIN`,`Reg_No`,`Model`,`Year`,`Color`,`Disable_Friendly`,`Car_Type_ID`) VALUES ('9','LKJ941','lexus ES350',2019,'Grey','Yes',55);
